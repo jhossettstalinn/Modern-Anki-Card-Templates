@@ -1,0 +1,117 @@
+html {
+	overflow-x: hidden;
+	word-wrap: break-word; 
+	}
+
+#kard {
+	/* CHANGE CARD SIZE HERE */
+	/* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */
+	/* BREAKS UP LONG WORKS */
+}
+
+.card {
+	font-family: Noto Sans CJK JP Regular;
+	font-size: 28px;
+	line-height: 1;
+	width: 800px;
+	margin: 150px auto;
+	text-align: center;
+	background: url("Sunset.png");
+}
+ 
+.frontbg {
+	background-color: #18adab;
+	border-radius: 10px 10px 0px 0px;
+	color: #fff;
+	position: relative;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.hira {
+	font-size: 18px;
+	margin: 5px auto 0px;
+}
+
+.backbg {
+	position: relative;
+	background-color: #fff;
+	padding: 20px 10px;
+	border-radius: 0px 0px 10px 10px; 
+	color: #017da6;
+	text-align: left; 
+}
+ 
+.defbg {
+	margin-left: 10px;
+	color: #185aad;
+	font-size: 22px;
+	display: block;
+}
+
+.WordType {
+	font-size: 20px;
+	color:#9d3547;
+	font-style: normal;
+}
+ 
+.sentence {
+	font-size: 20px;
+	margin: 10px 10px 10px 20px;
+}
+
+.notes {
+	position: relative;
+	border: 1px dotted #767689;
+	color: #767689;
+	font-size: 18px;
+	width: auto;
+	padding: 15px;
+	margin: 15px 10px 0px 10px;
+}
+
+ul {
+	list-style-type: disclosure-closed;
+	padding-left: 25px;
+}
+
+/********** ANDROID ***********/
+
+.android .card {
+	font-size: 25px;
+	width: 100%;
+	margin: 20% auto 5% auto;
+}
+
+.android .frontbg {
+	padding: 10px 5px;
+}
+
+.android .backbg { 
+ padding: 15px 10px;
+}
+
+.android .hira {
+	font-size: 16px;
+}
+
+.android .defbg {
+	font-size: 20px;
+	margin: 5px;
+}
+
+.android .WordType {
+	font-size: 18px;
+}
+
+.android .sentence {
+	font-size: 16px;
+}
+
+.android .notes {
+	font-size: 15px;
+}
+
+.android ul {
+	padding-left: 10px;
+}
