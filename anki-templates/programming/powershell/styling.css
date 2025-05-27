@@ -1,0 +1,88 @@
+.card {
+	background: url("https://wallpapercave.com/wp/wp9691349.jpg");
+}
+
+.page {
+	font-family: Arial;
+	font-size: 22px;
+	border: 2px solid #E0E0E0;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	color:#fff;
+	background-color: #013686;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	align: center;	
+	width: 800px;
+	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 100px;
+} 
+
+.page .titlebar {
+	background-color: #E0E0E0;
+	height: 60px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	align: center;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.page .front {
+	padding: 20px;
+	margin: auto;
+	text-align:center;
+}
+
+.page .back {
+	padding: 20px 30px;
+	margin: auto;
+	text-align:center;
+}
+
+.page .notes {
+ position: relative;
+ font-family: Noto Sans JP Regular;
+ font-size: 20px;
+ border: 1px dashed #C0C0C0;
+ padding: 10px;
+ margin-top: 20px;
+ width: auto;
+ color: #C0C0C0;
+ text-align: left;
+}
+
+.page img {
+	width: auto;
+	height:auto;
+	margin: 10px auto;
+	display: block;
+}
+
+.page hr {
+	border: none;
+	border-top: 2px dotted #C0C0C0;
+	height: 1px;
+	background-color: #013686;
+	width: 80%;
+	margin: 0 auto 0 auto;
+}
+
+.page li {
+	text-align:left;
+}
+
+.replaybutton {
+	display: none;
+}
+
+/***********ANDROID**********/
+
+.mobile .page {
+  font-size: 20px;
+  width: 90%;
+  margin-bottom: 5%;
+  margin-top: 20%;
+}
