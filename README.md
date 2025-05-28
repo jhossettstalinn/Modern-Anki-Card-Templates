@@ -1,6 +1,6 @@
 # 🧠 Modern Anki Card Templates
 
-A curated collection of custom Anki templates created to support long-term learning and memory across technical and language disciplines.
+A curated collection of custom Anki templates created to support long-term learning and memory across technical and language disciplines. Templates work seamlessly across **desktop, AnkiWeb, and AnkiDroid (Android)**
 
 ---
 
@@ -39,13 +39,17 @@ This repository was built to consolidate and reuse Anki templates for:
 
 ## 🛠 How to Use
 
-1. Open **Anki** → `Browse` → Select note type → Click **Cards...**
-2. Copy and paste the HTML/CSS from the desired template file into:
+1. Open **Anki**
+2. Go to `Tools > Manage Note Types > Add`
+3. Choose "Add: Basic"
+4. Select the newly created "Basic" note type (you can rename it)
+5. Click "Cards" to open the card editor
+6. Copy and paste the HTML/CSS from the desired template file into:
    - **Front Template**
    - **Back Template**
    - **Styling**
-3. Save your note type and assign to your deck
-4. Optional: Customize the fields and styling to match your preferences
+7. Save your note type and assign to your deck
+8. Optional: Customize the fields and styling to match your preferences
 
 ---
 
