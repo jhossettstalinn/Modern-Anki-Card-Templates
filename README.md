@@ -6,18 +6,16 @@ A curated collection of custom Anki templates created to support long-term learn
 
 ## 📂 Folder Overview
 
-anki-templates/
-├── it-learning/
-│ └── hacking/ # Cards related to cybersecurity, pentesting & tools
-│ └── vim/ # VIM keybindings, modes, and productivity tips
-├── languages/
-│ ├── vocabularium/ # Vocabulary cards for Spanish, Italian, Portuguese, etc.
-│ └── vocabulary/ # Cards for learning English words and usage
-└── programming/
-├── bash/ # Scripting and CLI essentials
-├── java/ # Java programming concepts
-├── powershell/ # Windows scripting with PowerShell
-└── python/ # Python fundamentals and best practices
+| Folder                    | Description                                                         |
+| ------------------------- | ------------------------------------------------------------------- |
+| `it-learning/hacking/`    | Cards related to cybersecurity, ethical hacking & tools             |
+| `it-learning/vim/`        | Keybindings, navigation, and editing efficiency in VIM              |
+| `languages/vocabularium/` | Vocabulary cards for **Spanish**, **Italian**, **Portuguese**, etc. |
+| `languages/vocabulary/`   | Cards for learning and reviewing **English vocabulary**             |
+| `programming/bash/`       | Shell scripting, navigation, and CLI command recall                 |
+| `programming/java/`       | Java syntax, OOP concepts, and API usage                            |
+| `programming/powershell/` | Windows automation and scripting using PowerShell                   |
+| `programming/python/`     | Python fundamentals, built-ins, syntax, and tips                    |
 
 ---
 
@@ -34,7 +32,8 @@ This repository was built to consolidate and reuse Anki templates for:
 
 ## 📸 Template Preview
 
-### Python Template (`anki-templates/programming/python/python-preview.png`)
+### Python Template (`anki-templates/programming/python`)
+![Vocabulary Card Example](anki-templates/programming/python/python-card-example.png)
 
 ---
 
